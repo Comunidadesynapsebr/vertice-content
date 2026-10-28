@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "temperature_scale": {
+    "min": 0.0,
+    "max": 1.0,
+    "note": "Índice normalizado do gerador atual, não temperatura Celsius real."
+  },
+  "humidity_scale": {
+    "min": 0.0,
+    "max": 1.0
+  },
+  "biomes": [
+    {
+      "id": 1,
+      "key": "core:tundra",
+      "name_pt_br": "Tundra",
+      "temperature": {
+        "lt": 0.23
+      },
+      "humidity": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "surface_block": 6,
+      "subsurface_block": 3,
+      "vegetation": "sparse_cold",
+      "tags": [
+        "cold",
+        "snow"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "core:desert",
+      "name_pt_br": "Deserto",
+      "temperature": {
+        "gt": 0.66
+      },
+      "humidity": {
+        "lt": 0.43
+      },
+      "surface_block": 4,
+      "subsurface_block": 4,
+      "vegetation": "none_or_sparse",
+      "tags": [
+        "hot",
+        "dry",
+        "sand"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "core:forest",
+      "name_pt_br": "Floresta",
+      "temperature": {
+        "min": 0.23,
+        "max": 1.0
+      },
+      "humidity": {
+        "gt": 0.67
+      },
+      "surface_block": 1,
+      "subsurface_block": 2,
+      "vegetation": "trees_dense",
+      "tags": [
+        "vegetation",
+        "humid"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "core:plains",
+      "name_pt_br": "Planície",
+      "temperature": {
+        "min": 0.23,
+        "max": 1.0
+      },
+      "humidity": {
+        "min": 0.0,
+        "max": 0.67
+      },
+      "surface_block": 1,
+      "subsurface_block": 2,
+      "vegetation": "grass_sparse_trees",
+      "tags": [
+        "grassland"
+      ]
+    }
+  ],
+  "evaluation_order": [
+    "core:tundra",
+    "core:desert",
+    "core:forest",
+    "core:plains"
+  ]
+}

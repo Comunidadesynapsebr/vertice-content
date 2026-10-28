@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "id_policy": {
+    "type": "uint16",
+    "reserved_ids": {
+      "0": "air"
+    },
+    "do_not_reassign_published_ids": true
+  },
+  "blocks": [
+    {
+      "id": 0,
+      "key": "core:air",
+      "name_pt_br": "Ar",
+      "name_en": "Air",
+      "solid": false,
+      "opaque": false,
+      "rendered": false,
+      "textures": {},
+      "tags": [
+        "air"
+      ]
+    },
+    {
+      "id": 1,
+      "key": "core:grass",
+      "name_pt_br": "Grama",
+      "name_en": "Grass",
+      "solid": true,
+      "opaque": true,
+      "rendered": true,
+      "textures": {
+        "top": "core.grass_top",
+        "side": "core.grass_side",
+        "bottom": "core.dirt"
+      },
+      "hardness": 0.6,
+      "tags": [
+        "soil",
+        "surface",
+        "natural"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "core:dirt",
+      "name_pt_br": "Terra",
+      "name_en": "Dirt",
+      "solid": true,
+      "opaque": true,
+      "rendered": true,
+      "textures": {
+        "all": "core.dirt"
+      },
+      "hardness": 0.5,
+      "tags": [
+        "soil",
+        "natural"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "core:stone",
+      "name_pt_br": "Pedra",
+      "name_en": "Stone",
+      "solid": true,
+      "opaque": true,
+      "rendered": true,
+      "textures": {
+        "all": "core.stone"
+      },
+      "hardness": 1.5,
+      "tags": [
+        "stone",
+        "natural"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "core:sand",
+      "name_pt_br": "Areia",
+      "name_en": "Sand",
+      "solid": true,
+      "opaque": true,
+      "rendered": true,
+      "textures": {
+        "all": "core.sand"
+      },
+      "hardness": 0.5,
+      "tags": [
+        "soil",
+        "sand",
+        "natural"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "core:water",
+      "name_pt_br": "Água",
+      "name_en": "Water",
+      "solid": false,
+      "opaque": false,
+      "rendered": true,
+      "textures": {
+        "all": "core.water"
+      },
+      "hardness": 0.0,
+      "fluid": {
+        "type": "water",
+        "viscosity": 1.0
+      },
+      "tags": [
+        "fluid",
+        "water"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "core:snow",
+      "name_pt_br": "Neve",
+      "name_en": "Snow",
+      "solid": true,
+      "opaque": true,
+      "rendered": true,
+      "textures": {
+        "all": "core.snow"
+      },
+      "hardness": 0.2,
+      "tags": [
+        "snow",
+        "cold",
+        "natural"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "core:log",
+      "name_pt_br": "Tronco",
+      "name_en": "Log",
+      "solid": true,
+      "opaque": true,
+      "rendered": true,
+      "textures": {
+        "side": "core.log_side",
+        "top": "core.log_top",
+        "bottom": "core.log_top"
+      },
+      "hardness": 2.0,
+      "tags": [
+        "wood",
+        "natural"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "core:leaves",
+      "name_pt_br": "Folhas",
+      "name_en": "Leaves",
+      "solid": true,
+      "opaque": false,
+      "rendered": true,
+      "textures": {
+        "all": "core.leaves"
+      },
+      "hardness": 0.2,
+      "tags": [
+        "foliage",
+        "natural"
+      ]
+    }
+  ]
+}

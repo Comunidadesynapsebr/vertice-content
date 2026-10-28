@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "atlases": [
+    {
+      "id": "runtime-atlas-v1",
+      "path": "assets/runtime/atlas.png",
+      "width": 64,
+      "height": 64,
+      "tile_width": 16,
+      "tile_height": 16,
+      "columns": 4,
+      "rows": 4,
+      "filter": "nearest",
+      "wrap": "clamp_to_edge",
+      "role": "starter_runtime_atlas",
+      "engine_compatibility": "VÉRTICE Engine 0.1.0-alpha starter renderer",
+      "tiles": [
+        {
+          "id": "core.grass_top",
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.grass_side",
+          "index": 1,
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.dirt",
+          "index": 2,
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.stone",
+          "index": 3,
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.sand",
+          "index": 4,
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.snow",
+          "index": 5,
+          "x": 16,
+          "y": 16,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.water",
+          "index": 6,
+          "x": 32,
+          "y": 16,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.log_side",
+          "index": 7,
+          "x": 48,
+          "y": 16,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.leaves",
+          "index": 8,
+          "x": 0,
+          "y": 32,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.log_top",
+          "index": 9,
+          "x": 16,
+          "y": 32,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.clay",
+          "index": 10,
+          "x": 32,
+          "y": 32,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.ice",
+          "index": 11,
+          "x": 48,
+          "y": 32,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.moss",
+          "index": 12,
+          "x": 0,
+          "y": 48,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.basalt",
+          "index": 13,
+          "x": 16,
+          "y": 48,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.ore",
+          "index": 14,
+          "x": 32,
+          "y": 48,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "id": "core.spare",
+          "index": 15,
+          "x": 48,
+          "y": 48,
+          "width": 16,
+          "height": 16
+        }
+      ]
+    }
+  ],
+  "source_art_count": 174,
+  "source_art_registry": "data/asset_registry.json",
+  "note": "O atlas runtime é o atlas inicial do motor. Os arquivos assets/source_tiles são assets candidatos e não substituem o atlas automaticamente."
+}

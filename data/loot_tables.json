@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "tables": [
+    {
+      "id": "core:grass",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "item": 10000,
+          "weight": 1,
+          "conditions": [
+            "example_placeholder_not_enabled"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core:stone",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "block",
+          "block": 3,
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "note": "Exemplos de estrutura, ainda não consumidos pela engine. A tabela core:grass deve ser ajustada quando drop/inventário forem implementados."
+}

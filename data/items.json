@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id_policy": {
+    "type": "uint32",
+    "range_start": 10000,
+    "rule": "IDs de itens são independentes dos IDs de blocos. Nunca reutilizar IDs publicados."
+  },
+  "items": [
+    {
+      "id": 10000,
+      "key": "core:log_item",
+      "name_pt_br": "Tronco",
+      "stack_size": 64,
+      "kind": "block_item",
+      "places_block": 7,
+      "tags": [
+        "wood"
+      ]
+    },
+    {
+      "id": 10001,
+      "key": "core:planks",
+      "name_pt_br": "Tábuas",
+      "stack_size": 64,
+      "kind": "material",
+      "tags": [
+        "wood",
+        "crafting"
+      ]
+    },
+    {
+      "id": 10002,
+      "key": "core:stick",
+      "name_pt_br": "Graveto",
+      "stack_size": 64,
+      "kind": "material",
+      "tags": [
+        "crafting"
+      ]
+    },
+    {
+      "id": 10003,
+      "key": "core:workbench",
+      "name_pt_br": "Bancada de criação",
+      "stack_size": 16,
+      "kind": "block_item",
+      "tags": [
+        "crafting",
+        "utility"
+      ]
+    },
+    {
+      "id": 10004,
+      "key": "core:stone_pickaxe",
+      "name_pt_br": "Picareta de pedra",
+      "stack_size": 1,
+      "kind": "tool",
+      "durability": 131,
+      "tool_type": "pickaxe",
+      "tags": [
+        "tool",
+        "stone"
+      ]
+    },
+    {
+      "id": 10005,
+      "key": "core:stone_axe",
+      "name_pt_br": "Machado de pedra",
+      "stack_size": 1,
+      "kind": "tool",
+      "durability": 131,
+      "tool_type": "axe",
+      "tags": [
+        "tool",
+        "stone"
+      ]
+    }
+  ]
+}

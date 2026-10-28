@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "aliases": {
+    "core.grass_top": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 0
+    },
+    "core.grass_side": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 1
+    },
+    "core.dirt": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 2
+    },
+    "core.stone": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 3
+    },
+    "core.sand": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 4
+    },
+    "core.snow": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 5
+    },
+    "core.water": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 6
+    },
+    "core.log_side": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 7
+    },
+    "core.leaves": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 8
+    },
+    "core.log_top": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 9
+    },
+    "core.clay": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 10
+    },
+    "core.ice": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 11
+    },
+    "core.moss": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 12
+    },
+    "core.basalt": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 13
+    },
+    "core.ore": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 14
+    },
+    "core.spare": {
+      "atlas": "runtime-atlas-v1",
+      "tile_index": 15
+    }
+  }
+}

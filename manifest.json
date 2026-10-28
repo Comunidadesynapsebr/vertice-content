@@ -1,0 +1,1012 @@
+{
+  "pack_id": "br.com.vertice.content",
+  "name": "VÉRTICE Content Pack",
+  "version": "0.1.0-alpha",
+  "schema_version": 1,
+  "engine_compatibility": {
+    "minimum": "0.1.0-alpha",
+    "recommended": "0.1.0-alpha",
+    "features_not_yet_runtime_loaded": [
+      "dynamic_content_loader",
+      "json_worldgen_config",
+      "inventory",
+      "recipes",
+      "loot_tables"
+    ]
+  },
+  "entrypoints": {
+    "blocks": "data/blocks.json",
+    "biomes": "data/biomes.json",
+    "items": "data/items.json",
+    "recipes": "data/recipes.json",
+    "worldgen": "data/worldgen.json",
+    "textures": "data/textures.json",
+    "texture_aliases": "data/texture_aliases.json",
+    "asset_registry": "data/asset_registry.json",
+    "loot_tables": "data/loot_tables.json"
+  },
+  "counts": {
+    "source_png_assets": 174,
+    "blocks": 9,
+    "biomes": 4,
+    "items": 6,
+    "recipes": 3
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 79,
+      "sha256": "8c32bf0bd9f89e30ee9471546f67fd4a90dbe7d49dd1189089efb2eed41966f0"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 36,
+      "sha256": "528b10ad01e3befd3d88362bc914e1c4bb94501b88df2e14b6e7b45970cb7206"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3588,
+      "sha256": "7b015533647e8950c2e73c1c109fae0de49b2c001cae7655f16b2e7ea2201023"
+    },
+    {
+      "path": "VERSION",
+      "size_bytes": 12,
+      "sha256": "60ed669ba94172c5f8a7e60859a7ebba4157ddf66ae713b7ea60d3dd258479c2"
+    },
+    {
+      "path": "assets/runtime/atlas.png",
+      "size_bytes": 5766,
+      "sha256": "14b246430c1429fe1248df094ec48df50eae407a8f5499f55e3fac6bf872e14d"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_01.png",
+      "size_bytes": 12735,
+      "sha256": "3bba9492139ac58166882be5431fb7f413e41672f955886cb91fc3e6b7fdec1c"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_02.png",
+      "size_bytes": 13923,
+      "sha256": "b451ba5dbfecf2666f3219e32942044fad9d81c8c9e869315ed56cb480cbf3d8"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_03.png",
+      "size_bytes": 13722,
+      "sha256": "5ef3910cd34e733cd9ca4996a3eb37bd985f50518453a9210e52e4a7d67cd5c1"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_04.png",
+      "size_bytes": 13696,
+      "sha256": "5ee71c753cbff51f012d6e6bd66f6ce404951395fe41d28f909759612aa5ceaa"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_05.png",
+      "size_bytes": 12210,
+      "sha256": "8f5225fd46b6944b07d17e606d91773cb2832d169bb722d4f67c4b80552bc467"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_06.png",
+      "size_bytes": 13400,
+      "sha256": "a18ab8cf18f950d16dfa2205984ec189ce1e2c6747682f43484e86950334aa8c"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_07.png",
+      "size_bytes": 12585,
+      "sha256": "16f4a3231a65f8ca58fa97265a4624d8b5932f1c947a07a963acf28e94af1b39"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_08.png",
+      "size_bytes": 12046,
+      "sha256": "459e21e68ed0b9691bef692fd4a446da52cd6a8e7c13a3846ab8733ad878d67e"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_09.png",
+      "size_bytes": 13020,
+      "sha256": "169a4323a06f9ea413cb560808db6b7d5abf5c4ea6388fe80cfb458c09fafb39"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_10.png",
+      "size_bytes": 11400,
+      "sha256": "f24aa9dec570a1802aa09625582ffa5b2a1587403af6f79ff7211167481a2666"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_11.png",
+      "size_bytes": 13221,
+      "sha256": "601478aa4a1c614ff60d97f183e09433f12a1ff0f76655bd9351fe2aa0946209"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_12.png",
+      "size_bytes": 15992,
+      "sha256": "11de21759c9ef16590760e8464db7ab7f04601b99dbf951d6aaaa0d8c223edf6"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_13.png",
+      "size_bytes": 11309,
+      "sha256": "2e8fed15b056fad27b655d01144006b29a276a37f821155e19a766536b835fb5"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_14.png",
+      "size_bytes": 12029,
+      "sha256": "35438187bd3f01c5171093960f1fb1ec459fe463a2766a7708b15a6f8c006b39"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_15.png",
+      "size_bytes": 12009,
+      "sha256": "80bcdb681f73d125bd327047f76bbf037fa77c89458678b5c983e8ba371c21d9"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_16.png",
+      "size_bytes": 11259,
+      "sha256": "d7d4701409da3fe69987ef77956b9804f03fe85123beb1c86fc8d5f015fdac36"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_17.png",
+      "size_bytes": 11636,
+      "sha256": "697266cd5815309c1387cd29fcf60f21d34be2856490216768132592d999641d"
+    },
+    {
+      "path": "assets/source_tiles/tiles/01_blocos_basicos/blocos_basicos_18.png",
+      "size_bytes": 13710,
+      "sha256": "f4dd1bfb44e8109a87346a333f5d88dacba513ff0cb60ff668f77e2016593921"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_01.png",
+      "size_bytes": 13316,
+      "sha256": "f1f16a91b747859aa3f8c59577db5a0361c3e023e5c89e45813e3c7277f0eaca"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_02.png",
+      "size_bytes": 12839,
+      "sha256": "e593b64ee2ddcd3545e9ae50e2b02b32435068a6283208d5ea8bb4a76c884df4"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_03.png",
+      "size_bytes": 12424,
+      "sha256": "fdef9c2532a34b4e9b6e6a3544957c6fad730345344a5a84bf554e7af52349a9"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_04.png",
+      "size_bytes": 13168,
+      "sha256": "2065bac72c91f00711ff56a0d1611526be20f4c1e02973c68e4f2c187a8b8c03"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_05.png",
+      "size_bytes": 12592,
+      "sha256": "5945c82a43b68ce5eae969f8516095255cb8e83f0f282db13361bac714ddf8e0"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_06.png",
+      "size_bytes": 13522,
+      "sha256": "300bb9cc0d3fd458d03982d0889689001ca81afc783a081d1b81317703be5f19"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_07.png",
+      "size_bytes": 13232,
+      "sha256": "3dfd2e435759536c1d303a1f944510b9f10eb4427ef4aca95b7622998caf50b7"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_08.png",
+      "size_bytes": 11055,
+      "sha256": "18ebeb7c45d21bed3e15451680434ec4728e242a39014d29a98be1b4100376c7"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_09.png",
+      "size_bytes": 13921,
+      "sha256": "8b5ad1ef570df7c63ee6f6aae01b5aacf4371bb87749eb453ef035012dc8c835"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_10.png",
+      "size_bytes": 14263,
+      "sha256": "c08bb97becb0e67fff4b24b5261fe66a9bd7de30b669914f301abfe084aef673"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_11.png",
+      "size_bytes": 12570,
+      "sha256": "7801d1e1e55f38030b61adcca57432e1eeab4bab5348267d19c6b82f1591dc27"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_12.png",
+      "size_bytes": 12645,
+      "sha256": "83bc51e00c22f390674dd3060d3659b302ba78be507caa344fe8e5d67c7bc356"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_13.png",
+      "size_bytes": 10561,
+      "sha256": "3f2225e0eae141d9b2729dda94102b4ac6c6108d8a8af46ffe7b13546f5e7e6e"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_14.png",
+      "size_bytes": 11133,
+      "sha256": "2aad4b99da511a20c1c83bae00a0bf4d763add4b91c92b016a52d580d7e49d90"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_15.png",
+      "size_bytes": 12282,
+      "sha256": "81b6477284a42e118ce32b87771870581e745539ee129b27b5b2e7cb2ff6e164"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_16.png",
+      "size_bytes": 14301,
+      "sha256": "da97836134ab34149281f1dcc431c7bb410d2b6c009498708dd6ab745580dc15"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_17.png",
+      "size_bytes": 13267,
+      "sha256": "6132caa11cc58cd5adf26752bac089dde552523a2d3b1f11dae57701def1602d"
+    },
+    {
+      "path": "assets/source_tiles/tiles/02_terra_variacoes/terra_variacoes_18.png",
+      "size_bytes": 12767,
+      "sha256": "f73205b4f33ea7227d8021938ad783b182649b56933294b4d0fe48cbc03e3c22"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_01.png",
+      "size_bytes": 13514,
+      "sha256": "da28d17f0bbcd3c0134fc5fa7f5878abbc136f32eb0349edc8a2ded108171d12"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_02.png",
+      "size_bytes": 14825,
+      "sha256": "d342beaef45be4630cd1647d3d634d6523e0d3eab77679f816c3e43ea00f9d73"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_03.png",
+      "size_bytes": 11432,
+      "sha256": "055d9a4fcb81cf3b4c6ae657e30a9ec213e70d7cc5b113d79c6686a250c31725"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_04.png",
+      "size_bytes": 12056,
+      "sha256": "7251873e10c2bf3b4628f1f192670ba283a00e4c0d3ea544dc8a5f8384170d34"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_05.png",
+      "size_bytes": 13981,
+      "sha256": "b896093ca4b883832517e386ddd3a0321d8f282eac3bb41b512e49ea847bb81c"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_06.png",
+      "size_bytes": 12640,
+      "sha256": "860a38ee3a3ab03012c645616037ba1e37dead8e24f84d1ecd8a9f7535062f72"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_07.png",
+      "size_bytes": 13461,
+      "sha256": "489275deedaf96c8858a434a085294d1a1b7e35bdef1d95401d77d9ee1a82a21"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_08.png",
+      "size_bytes": 12514,
+      "sha256": "5cae5bedb005186dd9efe33e870762d3e443320ee4627464d5c73e85ca57980b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_09.png",
+      "size_bytes": 12865,
+      "sha256": "30d10f6b9a653cf80a1e3da06522a1a1266f06026a05b4ef84f6455aeaffd866"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_10.png",
+      "size_bytes": 12870,
+      "sha256": "5d69ec485d4b040737d336510ffbb487efa59f2128fc90b3dbf41435d6a6789e"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_11.png",
+      "size_bytes": 13042,
+      "sha256": "d211c36c85ad9572b06b76dbc5001b0a080c5ece8ff355e2363b0f636a798fdd"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_12.png",
+      "size_bytes": 14290,
+      "sha256": "3a31614ab5169c9bd61ec1f7c2561a22c07da710e011e6aba409dd9533f3f1f3"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_13.png",
+      "size_bytes": 12445,
+      "sha256": "40a54123c0c6fab0e8a3efaf1e8e85133940d14edb3455430ac3d88d84e7fa47"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_14.png",
+      "size_bytes": 12683,
+      "sha256": "836b9ca4262722a92745493ae2b00cc3e11db1ac61318ff1ef4b67e355e07edd"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_15.png",
+      "size_bytes": 13752,
+      "sha256": "e58fc0c397e8a7d10b7bdbca8a75bd3800e1c46925ac8509d78b6d78d2a55e70"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_16.png",
+      "size_bytes": 11727,
+      "sha256": "615d4ffed97a5a17bcd7e298cc3e66191796842cf0911dcf8c5727b10233ec8b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_17.png",
+      "size_bytes": 14047,
+      "sha256": "0601ba5ae8f65803809b28f82cf5108e1833bbfe31e411e7712ff8e24f4cd5f8"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_18.png",
+      "size_bytes": 11746,
+      "sha256": "010112a18eee0b25f1ad0ae1271f1cff562a0b68240ec8f10d810afffe1b2f42"
+    },
+    {
+      "path": "assets/source_tiles/tiles/03_pedra_minerios/pedra_minerios_19.png",
+      "size_bytes": 7173,
+      "sha256": "60e0117ca8d99ba9cfcd069b6532ede80605363a37bcf2017813efe406be57b3"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_01.png",
+      "size_bytes": 10619,
+      "sha256": "72977da0d31b91a9085d4d7c91d1a8a6fa8524951326ccd282169813a4d014cb"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_02.png",
+      "size_bytes": 9427,
+      "sha256": "5a3c27d60e8542e2ba56463cf14b75e969eeb55a3799ce5457316c5bc7d0c422"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_03.png",
+      "size_bytes": 13098,
+      "sha256": "b3f523189c5f167417de063b67a1523a30ab729ef8718b36b484e5af437298e3"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_04.png",
+      "size_bytes": 9993,
+      "sha256": "43c1b41f4fd23acc24ba376b2064834003e2b0bb8fa8ea4381f10e7f8fee86f7"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_05.png",
+      "size_bytes": 11589,
+      "sha256": "416183ad1db73db4ae65ac7cad3628e9b099eead9f1e32a17a02d18502e64560"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_06.png",
+      "size_bytes": 10510,
+      "sha256": "54025d131b5180f012d1b811705d71a64586d64822cd16f2cab34a07dbd51c19"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_07.png",
+      "size_bytes": 10822,
+      "sha256": "a715b5f129179804ff9467010ca88f593e23a8b5e4f699a3ae2adc371b3f5a41"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_08.png",
+      "size_bytes": 9882,
+      "sha256": "f9ba4e7bd0274e1f7cb922f8bf0e07b86ab1c8a94287152230c95129e4fd5040"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_09.png",
+      "size_bytes": 8022,
+      "sha256": "2362349eafc58c0d54ae6181da21a90e17b82e1af3fca6a5ea57f969120b7de7"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_10.png",
+      "size_bytes": 9161,
+      "sha256": "84a042a4dc74db2cdbdee790a0f6215d660ba6589a143116ab43fc82253c9cbb"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_11.png",
+      "size_bytes": 10234,
+      "sha256": "9b486faf0ef98ce631e7d87f94ad0be7b0ada83ca76404bf9838ffc58db0a07f"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_12.png",
+      "size_bytes": 9177,
+      "sha256": "6f1657bfbb1787aa56a9e52daeec65af50b5738374b5e7fedd22ab271daf2ee3"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_13.png",
+      "size_bytes": 8754,
+      "sha256": "688bcddee12cdbcde1374c6e49dd144019ce4148c2f06db0ebd12fc084fc5faf"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_14.png",
+      "size_bytes": 10447,
+      "sha256": "d0579c7e3dc8cfe943dc3930ee1d8203f6dddb2d2234e1904b31b87e171b4d6e"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_15.png",
+      "size_bytes": 8958,
+      "sha256": "f8747bff5694573dbb0653c870c6fda02fb9d447032e91adfc04a648a51efea1"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_16.png",
+      "size_bytes": 8558,
+      "sha256": "318133bc438e936dee79e32be37613ad5270eb78bd4c544c7bf0a969695a0e79"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_17.png",
+      "size_bytes": 13485,
+      "sha256": "7a7a4e76a1c6e1c9a529ef57169149f70bf4adeeed232f038fa019e8c9e0476a"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_18.png",
+      "size_bytes": 9149,
+      "sha256": "aabc19105ca64bbcd85dcfbd384f120e54ab58b24f24f7251c28e9634ed12212"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_19.png",
+      "size_bytes": 8066,
+      "sha256": "4b0bec33874d21c81be8bea074e926766125fb503ccb3342f0c6b6fae0289263"
+    },
+    {
+      "path": "assets/source_tiles/tiles/04_madeiras/madeiras_20.png",
+      "size_bytes": 5610,
+      "sha256": "a6916bc8ff5377e59fa4988ad43a2fbfa8a084003ce0acd7d079b1c4df9bb9f6"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_01.png",
+      "size_bytes": 15530,
+      "sha256": "acc8b863d765dee0a7873f24a7d2bedeab13b0a23a3a41a7e4d9d7ccdcf5681d"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_02.png",
+      "size_bytes": 14364,
+      "sha256": "61de5ee83a6b9e06a598f01b285c1eeb388940ee332b07ac1958437007791534"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_03.png",
+      "size_bytes": 14862,
+      "sha256": "6065e9464a0ef7c33e6c2ed5f877f6befbfee80a56d44869e2ae26b9cdce9aad"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_04.png",
+      "size_bytes": 14996,
+      "sha256": "ac3e7f7b1d0a3b0797caacfe19e25af46e43c42307faa1233774e8aa2262478a"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_05.png",
+      "size_bytes": 15585,
+      "sha256": "de3c3cfccad3baeee20530c3c292c1f2edffac78fb8ef164eaa9f602f586836b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_06.png",
+      "size_bytes": 18532,
+      "sha256": "9adabdb6b5115c7bdb8e0172c808b8059ca979c72494dbcfa73acc6961489f98"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_07.png",
+      "size_bytes": 15710,
+      "sha256": "f23399c8b798dc6b282b9205dd04f3bb0acaff0c7c15c70fc7ce07b6e04ce0d2"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_08.png",
+      "size_bytes": 13057,
+      "sha256": "5f53b7acc17abbe452ef998b9cbfef69cf5c9029430f695d6da161ee6ae33071"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_09.png",
+      "size_bytes": 12465,
+      "sha256": "6b9e727211d1d62e2aeedee097ad2df0bcb8a5551446830453e642ac2b973bf2"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_10.png",
+      "size_bytes": 13061,
+      "sha256": "9723df3f20ff8a99c72bfb36d4c7d7c157e2e206d81221a6288536a382e0d7aa"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_11.png",
+      "size_bytes": 12913,
+      "sha256": "729ddebeeed6908431d0d7abc07401480f6efc9b5a24fd7b8b00010004300ab4"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_12.png",
+      "size_bytes": 13608,
+      "sha256": "49777cac80a2c987dd8fc85d3487c2379b0239f47bc9b983a9f08d85067d6f11"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_13.png",
+      "size_bytes": 14604,
+      "sha256": "0318abbe6041768e48ee91fdb292e70ff60e764b1eb0c40c468a92a1869f567b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_14.png",
+      "size_bytes": 16325,
+      "sha256": "dde5ca0faac17feb4f23c2dfff055dfd465aa3879c06d57d1a56179c6821aac8"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_15.png",
+      "size_bytes": 14634,
+      "sha256": "005ed68464c5a257947b316fca515a3999f8ea74296c7e737f89ff83fec6bfc7"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_16.png",
+      "size_bytes": 14835,
+      "sha256": "9d14d43da98da8bd1bf6f282ad4aba202ed10d39fae169349d38d11e9ec2c4c0"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_17.png",
+      "size_bytes": 11739,
+      "sha256": "1da6e0cfb95c59f3b6c8b50314284e9f0d001c015748a7c67550bafba47f08e0"
+    },
+    {
+      "path": "assets/source_tiles/tiles/05_folhas_vegetacao/folhas_vegetacao_18.png",
+      "size_bytes": 8646,
+      "sha256": "954e527dda78e4ab473a724c4553c0cf65a63c181329b077962d39952e94fbf4"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_01.png",
+      "size_bytes": 9195,
+      "sha256": "950be2055cf1b30d1be3a7b21a62685e8dcfc1c424cf08bd57a048448b2451fc"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_02.png",
+      "size_bytes": 8262,
+      "sha256": "9535200a8e826b8aca8d6455110e2b4ee3275215b76bb60a397205f4211bccf5"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_03.png",
+      "size_bytes": 9090,
+      "sha256": "b086e7f9b0ca7525c141c5ba66df571c19d6a3795bbc7a452f657a5a5986dcfa"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_04.png",
+      "size_bytes": 6748,
+      "sha256": "8e79e545f07a461bf68f26a6e8231c87164f7788dca202114cd783b4367aef44"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_05.png",
+      "size_bytes": 9591,
+      "sha256": "b029a185ca49a39313eb5896435cd16a4e6e9f15706ced5d763e1ef1d5b5b517"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_06.png",
+      "size_bytes": 7452,
+      "sha256": "09b88e3d51f6bdb0be9ba698721e2cb990461145e05ed187aa17db617bcf6a6b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_07.png",
+      "size_bytes": 6028,
+      "sha256": "bde89578641522e6bbb70b8b5fd6b7b048574b817b04e8151105bd4d2dce422a"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_08.png",
+      "size_bytes": 6546,
+      "sha256": "69ef2745d2583033c233e64a199e3f2518ddcc23baaf3a3e9ab358d35bb4ff2c"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_09.png",
+      "size_bytes": 6267,
+      "sha256": "8b72b357935c5f3ed2685067e16c7602ec554abf12f8b87e1b7db36a6a5f9f11"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_10.png",
+      "size_bytes": 8080,
+      "sha256": "35fda0bfca1636f8f4e7514de7f5b8076aadc6e6b52185edff8c9ba7daa565c3"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_11.png",
+      "size_bytes": 16174,
+      "sha256": "08f674de93fc18adc991e0db9dca2b2071573afa729b1735afe7c9d15eefb6d1"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_12.png",
+      "size_bytes": 11343,
+      "sha256": "a6d5b2f85e80bf582eb3559ba29eec500ea90d37fedf24d9139c4d81a30ef573"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_13.png",
+      "size_bytes": 8321,
+      "sha256": "5e08c20bccc88947be20c67b6a99013b0ec504b2dae63a31f06ca96eeb1aa2fb"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_14.png",
+      "size_bytes": 8341,
+      "sha256": "d13030f0e4a1bee83073578d805c2ccda199a2fbe458d70516fcb90467aa8c46"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_15.png",
+      "size_bytes": 10188,
+      "sha256": "53368ea5fd19cb34f9ac9d36798ac6a37e233737ad656ff49c29acd74bd512a8"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_16.png",
+      "size_bytes": 11103,
+      "sha256": "09c30f020db3f87a029e6e15324570f1892b3f268dcca85557b9e89a0d8c9597"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_17.png",
+      "size_bytes": 11374,
+      "sha256": "e49ce44da78242aed27fbec33584dd0576fb6d4c32d9cced1012ef899d9d13c1"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_18.png",
+      "size_bytes": 4871,
+      "sha256": "eb67a84ed2298e5ddebb11bda2d7efcb0e78bf59cc59504134875b4ca394df3c"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_19.png",
+      "size_bytes": 4952,
+      "sha256": "a3059714c4c3b714caa768fb1c2ccea2d089643f8f3b3b51172a95d55e0c2310"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_20.png",
+      "size_bytes": 5534,
+      "sha256": "9aaea1484b06a384e3fbba707dcd5605388a4e4d1bc2caf13295626ffc8cd2e9"
+    },
+    {
+      "path": "assets/source_tiles/tiles/06_plantas_cultivos/plantas_cultivos_21.png",
+      "size_bytes": 10036,
+      "sha256": "e755acb2ca04106e5cb73b56cf2c088a67ad2fd2efe80009412a7f79460a501b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_01.png",
+      "size_bytes": 10838,
+      "sha256": "52c0595ad544433853d8b6aea3a1da48c5c106db07786e2292abb8d7ab345dbc"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_02.png",
+      "size_bytes": 10913,
+      "sha256": "1fd9b5d52147d6afb00d121726a630cba9d957202d853eabdc408316437ac9da"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_03.png",
+      "size_bytes": 11113,
+      "sha256": "4bcb4df7d321cdc37fb76183a5e1d6fe619d8134a25efb14d3d83bb6616e7e90"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_04.png",
+      "size_bytes": 11408,
+      "sha256": "cbce1f73a12c593cf6b5e68c7a8204b80b790b2f749acf1ee194ef83ca5c3dd0"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_05.png",
+      "size_bytes": 11052,
+      "sha256": "2c0bfe21efdb553b4a05a3ac18e4886567d773f6f84c7cbb6bc10b0407f84634"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_06.png",
+      "size_bytes": 7020,
+      "sha256": "8f487d392b7fdb345fff11839b37f3868eba5a807007a85ca24f23536f3f1672"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_07.png",
+      "size_bytes": 11913,
+      "sha256": "a2544d57c05d4aa35c48b9a1c59f2666d17243a578797bdff83ea51ccebb2a18"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_08.png",
+      "size_bytes": 11603,
+      "sha256": "6727715433274434b4dffcdbb68442bfdc504457db6c723ef3d483c9b9c060be"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_09.png",
+      "size_bytes": 11139,
+      "sha256": "4a3a945ddee63ef348d3c60e77d5e976ca340cf4271bb4f31721099cb97fbd9f"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_10.png",
+      "size_bytes": 12172,
+      "sha256": "7b6eae343531498746e5a99f4ea768d7140baa48c9b4e83c353434ae03dd7ec5"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_11.png",
+      "size_bytes": 12194,
+      "sha256": "703c8c42a6d0d50250b814c394486158589c35c9ac62c3f11c0ab9b2fb39fe8d"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_12.png",
+      "size_bytes": 11073,
+      "sha256": "50e7f7b05a63cf393d925a9a9b6e2bbb83deb6e5196b3dec8f57774ae47e2338"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_13.png",
+      "size_bytes": 9925,
+      "sha256": "352ebf47f4c09da44de5b4b22fbde324dde44b03ccff07a8d6b44a3a0397381b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_14.png",
+      "size_bytes": 10100,
+      "sha256": "82eee7bf9d2cd8f04065b61629794b8b95fc7107d515789008261c70789a5110"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_15.png",
+      "size_bytes": 7505,
+      "sha256": "13be2b656d77ebad58c8ca6264fbb48099907b85ab07b7dccba92ef982d76c71"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_16.png",
+      "size_bytes": 7599,
+      "sha256": "c24416080c2de90f8faf302d8bf1d1bc30a19a30d425b4e6eab8c96ec2a72049"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_17.png",
+      "size_bytes": 7342,
+      "sha256": "0aeb18b6bdce528c6dd4fd7ec76326aefcfefd8c984d1c2ee0cf5a04f81009af"
+    },
+    {
+      "path": "assets/source_tiles/tiles/07_agua_liquidos/agua_liquidos_18.png",
+      "size_bytes": 13078,
+      "sha256": "3017edccf776e37229787ca0f4777b292320b8d51a3ebf8ed5864d1e04759e7b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_01.png",
+      "size_bytes": 9942,
+      "sha256": "4f4d7c279fa7775193766218ce7ee0f1fada83e1bba91610ab7b34ef264eabbd"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_02.png",
+      "size_bytes": 11883,
+      "sha256": "1a09e9d8681cdc6c3a7e1754cf9fb8de99fda5dd32f009d39cc51783af2cd2ab"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_03.png",
+      "size_bytes": 11681,
+      "sha256": "67894b0bc873b1ea5aa14b3d6becf472c74df5a482b8d254d764a441772a91f7"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_04.png",
+      "size_bytes": 9035,
+      "sha256": "db1766ce6f3a3307cbff76ece683e19befa0bbdf592e8b29529f4b526dd5e2f4"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_05.png",
+      "size_bytes": 9779,
+      "sha256": "5b43331ac578b87cc2437677a20d8b87cf6e48130ca9792fb36f63b757bc81ad"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_06.png",
+      "size_bytes": 8903,
+      "sha256": "7939ad489aa44757d068716985bc4ab929658f322b4340cbea27c17b2086ce22"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_07.png",
+      "size_bytes": 9466,
+      "sha256": "7e9efd7ccbbb36e65c5850a632bd6ff1a1adb2082c10eebfe07da12ddb7c0237"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_08.png",
+      "size_bytes": 9259,
+      "sha256": "6dc22ff007fb631c416fd547e58201596aad44bfd3e69b303fe42bcfb7f430fe"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_09.png",
+      "size_bytes": 6820,
+      "sha256": "d27fe1892f7e66b43e9a58efae08af0726f82783d3578aae66eb4ef960deb87a"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_10.png",
+      "size_bytes": 10332,
+      "sha256": "9be406ed7a6aa2ce6af1bd370da8ef8d88b697e19a6a3d4ea808773ab5244331"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_11.png",
+      "size_bytes": 4186,
+      "sha256": "676796473664a2957c5a02da6fcae84e6e5665d1ab04600019e7a6a77ba78af0"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_12.png",
+      "size_bytes": 8751,
+      "sha256": "5dec3880e767a52892e00ee8cfb75558043ee830b6e7d5b3bafccf16fb360a57"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_13.png",
+      "size_bytes": 6723,
+      "sha256": "8d417b7641bdebd38c169406c9b957a764b67c71aca83f53e1773c455d6d76ff"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_14.png",
+      "size_bytes": 6867,
+      "sha256": "f5d7900c0e72634847f59efffb2709e7037ce23ee8c32dd93e1a6b59ef6c4a90"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_15.png",
+      "size_bytes": 5965,
+      "sha256": "7ff349ad4d8e906fe6780a7441746f083a57d7bf6ac40736535d601698bdda10"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_16.png",
+      "size_bytes": 8375,
+      "sha256": "0037020bf482734665ccf4e07c1d924e844ce2dc2b2fddb8ce1ab1ef3f93d7f9"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_17.png",
+      "size_bytes": 12160,
+      "sha256": "3e469e881e2e379b66d41f2eac5e5c5d2e4467fd3b387cb1c4d71ad565a3459b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_18.png",
+      "size_bytes": 12849,
+      "sha256": "21eec8ca1eec509692bf47650fc4fce0a4e9568aacabbc491fc6af8e99dd258d"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_19.png",
+      "size_bytes": 11771,
+      "sha256": "718e799fcd839fbfe0ab1a239e3f85eed39886e0ec55eb4bc06e16e6af42f351"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_20.png",
+      "size_bytes": 10175,
+      "sha256": "597bf90752d4fafffa6ab0cd3da8208f955047e15e26f63715ddf80baed3f41a"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_21.png",
+      "size_bytes": 4026,
+      "sha256": "014de97311e4b960563aa9834db306e100a911c532515688e51ee4419a6164e6"
+    },
+    {
+      "path": "assets/source_tiles/tiles/08_construcao/construcao_22.png",
+      "size_bytes": 10473,
+      "sha256": "43168e00670894eea286ea5c111001550b00194266f49bed3e51b33efb5b939c"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_01.png",
+      "size_bytes": 7212,
+      "sha256": "2aa082bf47e157fceec45576c50bdb406bcc59f0755b3ce0f5887e3428a7ed34"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_02.png",
+      "size_bytes": 6994,
+      "sha256": "641c2873a01a005bcf890248a0f2fa99138b335579a7576d074662ac0c585de6"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_03.png",
+      "size_bytes": 7197,
+      "sha256": "e40addd982232b61ef76bbeb39f74bbdc98975dc5ca8feebd66a76da12cf673a"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_04.png",
+      "size_bytes": 7604,
+      "sha256": "e97fe586745a296212b0d9cb63551a0bca9a5108f3b3347b4aca075c1598b744"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_05.png",
+      "size_bytes": 7849,
+      "sha256": "29d6298cb7c578b46d48893580089b7792e5fb582f056155ebc5bba5e3920275"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_06.png",
+      "size_bytes": 7809,
+      "sha256": "ae16518f1b5d46633caec016e3645e23b514f57f17f55294ec1a8f654756ec52"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_07.png",
+      "size_bytes": 8983,
+      "sha256": "e4f121d79dbca30e5f637cfd824c8bf74411bd332c176e3dc5e2e70942ded8ed"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_08.png",
+      "size_bytes": 3077,
+      "sha256": "92b3bd3bab40cb83ceb5f56c0af68756db6914b0229de1290920da59f493db6b"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_09.png",
+      "size_bytes": 6341,
+      "sha256": "7a35e214986936f8216502187897fd2d96cbed829329b12e6fbbd0e4c244ab56"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_10.png",
+      "size_bytes": 7196,
+      "sha256": "7ecbb1f2d4298786a13c8d217c9cb105bcc43e2e78a5948ed48e2e426e517d08"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_11.png",
+      "size_bytes": 11508,
+      "sha256": "d186ebb1a9288bad297e73025b3c4852828b4b71c54b570045a53de55b646a02"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_12.png",
+      "size_bytes": 11135,
+      "sha256": "136a9edba51f145a52ca84e5ffa9c22258cbef7ca98bc96935f7e02d69d5ff95"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_13.png",
+      "size_bytes": 11243,
+      "sha256": "f9f4a51b90ec33fed6421c3a10a8de4d7fe7e5f5727e5854335125227381f129"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_14.png",
+      "size_bytes": 13205,
+      "sha256": "336323a8420f912c3356877c780c1aff4fe6d87701bf3f60b179abf45f4481b7"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_15.png",
+      "size_bytes": 3192,
+      "sha256": "19851a06835a1458bf9b38e0ba61461ac1247e93150083dc8d3513ddad9aec89"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_16.png",
+      "size_bytes": 5721,
+      "sha256": "f056fbfe5200bb2c07401cdc6e07a1b690aea3ef57a7fcc54d9971bfed1d7dcc"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_17.png",
+      "size_bytes": 10378,
+      "sha256": "0a983a1073fa5781dc2f09484b69babdd13e51ba77e0a62d4da79cd75e1397d4"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_18.png",
+      "size_bytes": 9068,
+      "sha256": "e392e83b2124b0e04c7c8fa4cedc43c22285c97ca74805690007dbc948ac2b74"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_19.png",
+      "size_bytes": 7487,
+      "sha256": "f02faee7c9587ef9f3c7f3437a9469f075b32e288142602c118a970fb04d7822"
+    },
+    {
+      "path": "assets/source_tiles/tiles/09_itens_utilitarios/itens_utilitarios_20.png",
+      "size_bytes": 8563,
+      "sha256": "fa773458c57f5f12359de0f64c04524e7dc2c1e2a593bf3eda1e6f66fced4463"
+    },
+    {
+      "path": "data/asset_registry.json",
+      "size_bytes": 111159,
+      "sha256": "20855137c2f6f36301d1052fb08a47efe09768a5c4b65bac34b18cea68021f9f"
+    },
+    {
+      "path": "data/biomes.json",
+      "size_bytes": 1780,
+      "sha256": "71828255e554c9380ee73533a099a77be4a296bc31d682f25fc75731a4be1b87"
+    },
+    {
+      "path": "data/blocks.json",
+      "size_bytes": 3192,
+      "sha256": "ac2fc8d0c74352ae791b26294eaf2c5fde5af7fddd0c340309aca2ac138ad927"
+    },
+    {
+      "path": "data/items.json",
+      "size_bytes": 1542,
+      "sha256": "da7b095ca3709343b6b62e30a5fe1c3c6071729ec31ce03f8da27beea2e9c847"
+    },
+    {
+      "path": "data/loot_tables.json",
+      "size_bytes": 635,
+      "sha256": "6b0a58b971e10d6987b2771161f83f12d80e0be8a18b5f53c1a48a8dc3171024"
+    },
+    {
+      "path": "data/recipes.json",
+      "size_bytes": 1020,
+      "sha256": "3fb31ae9ebd88d1b7bc678b4f5c9ef9ae2512155fe4cd60c89f25918dad2af35"
+    },
+    {
+      "path": "data/texture_aliases.json",
+      "size_bytes": 1402,
+      "sha256": "771c0ce023c58c494802b9192aebeb26eba7987511d90a018603ce4d0631c58f"
+    },
+    {
+      "path": "data/textures.json",
+      "size_bytes": 3209,
+      "sha256": "9b5a2020ebea388d8da7bfa36a38ce8d5f5d5970d79d03cee9fe3e0a1fab508b"
+    },
+    {
+      "path": "data/worldgen.json",
+      "size_bytes": 1915,
+      "sha256": "bdde3b5fd42e5f71fb9adc451afc3feb3964d5201eed7809bcdb701b8f81ef9c"
+    },
+    {
+      "path": "docs/CONTENT_FORMAT.md",
+      "size_bytes": 805,
+      "sha256": "9a532b51a959b09def6ad4962b6b8d9a780f3215c131c1feddb1cdf57a49390d"
+    },
+    {
+      "path": "previews/tile_catalog.png",
+      "size_bytes": 1710256,
+      "sha256": "8984ffb64e91d653d8fcdb8ba9c2124dd3a879a2700aa232281f3cda96949feb"
+    },
+    {
+      "path": "schemas/manifest.schema.json",
+      "size_bytes": 698,
+      "sha256": "561e543e69ae369594277f710897b601c7b516a4fab23e42f5aebc26190d36bc"
+    },
+    {
+      "path": "scripts/build_catalog.py",
+      "size_bytes": 1248,
+      "sha256": "84fa85934a25cf4a85ec410df4425ac65f3913e6178c308ffd5ed88fbe1b6a34"
+    },
+    {
+      "path": "scripts/validate_pack.py",
+      "size_bytes": 1706,
+      "sha256": "67f20e604e957438c21d2e60c01a77b046cafef50d35a905ba2b73050f8fdb85"
+    }
+  ],
+  "security": {
+    "remote_executable_scripts": false,
+    "must_validate_hashes_before_loading": true,
+    "never_execute_remote_code": true
+  },
+  "notes": [
+    "Assets source are candidates and may require normalization before runtime use.",
+    "Manifest hashes protect integrity but do not prove publisher authenticity.",
+    "Content configurations do not affect the current APK until its loader is implemented."
+  ]
+}

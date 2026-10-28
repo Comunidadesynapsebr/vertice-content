@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vertice.example/schemas/manifest.schema.json",
+  "title": "VÉRTICE Content Manifest",
+  "type": "object",
+  "required": [
+    "pack_id",
+    "name",
+    "version",
+    "schema_version",
+    "engine_compatibility",
+    "entrypoints"
+  ],
+  "properties": {
+    "pack_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "engine_compatibility": {
+      "type": "object"
+    },
+    "entrypoints": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}
